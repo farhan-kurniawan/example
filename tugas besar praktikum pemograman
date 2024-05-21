@@ -12,3 +12,5 @@ print("--------------Menu Minuman--------------")
 print("9. Es teh: Rp. 3000")
 print("10. Es jeruk: Rp. 5000")
 print("11. Es buah: Rp. 10.000")
+
+def totalsemuahargamenu
