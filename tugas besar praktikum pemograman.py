@@ -14,3 +14,7 @@ print("10. Es jeruk: Rp. 5000")
 print("11. Es buah: Rp. 10.000")
 
 def totalsemuahargamenu(menu, hargamenunasgor):
+  totalharga = 0
+  for pesanan in menu:
+    totalharga =
+    
