@@ -23,5 +23,9 @@ def totalsemua(hargamenunasgor, menu):
   hargamenunasgor = [13000, 15000, 15000, 17000, 22000, 13000, 13000, 13000, 3000, 5000, 10000]
   menu = []
 
+def totalsemua():
+  
+
+
 
     
