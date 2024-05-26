@@ -24,6 +24,8 @@ def totalsemua(hargamenunasgor, menu):
   menu = []
 
 def totalsemua():
+  while True:
+        pesanan = input("Masukkan nomor menu yang ingin dipesan (ketik 0 untuk total harga yang harus dibayar): ")
   
 
 
