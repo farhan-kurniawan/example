@@ -29,6 +29,9 @@ def totalsemua():
 
         if pesanan == "0":
           break
+
+        else:
+          print("maaf inputan ada tidak berada di menu")
     
 
     
