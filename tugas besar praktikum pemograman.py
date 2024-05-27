@@ -38,6 +38,7 @@ def totalsemua():
                 print("Nomor menu tidak valid, silakan coba lagi.")
         except ValueError:
             print("Input tidak valid, silakan masukkan nomor menu yang benar.")
+          
 totalharga = totalsemuahargamenu(menu, hargamenunasgor)         
  
 
