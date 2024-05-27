@@ -27,7 +27,7 @@ def totalsemua():
   while True:
         pesanan = input("Masukkan nomor menu yang ingin dipesan (ketik 0 untuk total harga yang harus dibayar): ")
     
- while True:
+  while True:
         try:
             pesanan = int(input("Masukkan nomor menu yang ingin dipesan (ketik 0 untuk total harga yang harus dibayar): "))
             if pesanan == 0:
@@ -38,7 +38,11 @@ def totalsemua():
                 print("Nomor menu tidak valid, silakan coba lagi.")
         except ValueError:
             print("Input tidak valid, silakan masukkan nomor menu yang benar.")
-           
+    
+    totalharga = totalsemuahargamenu(menu, hargamenunasgor)
+    print("Total harga yang harus dibayar: Rp.", totalharga)
+
+totalsemua()
           
  
 
