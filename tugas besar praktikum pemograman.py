@@ -42,8 +42,13 @@ def totalsemua():
 
     if len(menu) == 0:
       print("tidak ada yang dipesan")
+
+    else:
+      totalharga = totalsemuahargamenu(menu, hargamenunasgor)
+      print("Total harga: Rp.", totalharga)
     
 
+       
     
 
 
