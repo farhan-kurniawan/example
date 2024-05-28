@@ -49,6 +49,8 @@ def totalsemua():
 
       menu.sort()
       print("Pesanan Anda: ")
+      for pesanan in menu:
+        
 
 
     
