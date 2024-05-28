@@ -32,6 +32,16 @@ def totalsemua():
 
         else:
           print("maaf inputan ada tidak berada di menu")
+
+        pesanan = int(pesanan)
+        if pesanan < 1 or pesanan > len(hargamenunasgor):
+            print("mohon maaf pesanan yang anda input tidak ada di menu. Silahkan masukan kembali nomor pesanan yang ada di menu!")
+            continue
+
+        menu.append(pesanan)
+
+    if len(menu) == 0:
+      print("tidak ada yang dipesan")
     
 
     
