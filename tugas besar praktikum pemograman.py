@@ -46,6 +46,11 @@ def totalsemua():
     else:
       totalharga = totalsemuahargamenu(menu, hargamenunasgor)
       print("Total harga: Rp.", totalharga)
+
+      menu.sort()
+      print("Pesanan Anda: ")
+
+
     
 
        
