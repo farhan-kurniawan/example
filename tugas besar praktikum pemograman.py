@@ -50,6 +50,12 @@ def totalsemua():
       menu.sort()
       print("Pesanan Anda: ")
       for pesanan in menu:
+        if pesanan <=5 :
+          kategori = "Makanan"
+        else:
+          kategori = "Minuman"
+
+      
         
 
 
