@@ -54,12 +54,31 @@ def totalsemua():
           kategori = "Makanan"
         elif pesanan >=5 :
           kategori = "Minuman"
+        elif pesanan == 1:
+          item = "Nasi goreng biasa"
+        elif pesanan == 2:
+          item = "Nasi goreng sosis"
+        elif pesanan == 3:
+          item = "Nasi goreng bakso"
+        elif pesanan == 4:
+          item = "Nasi goreng ati ampela"
+        elif pesanan == 5:
+          item = "Nasi goreng Spesial"
+        elif pesanan == 6:
+          item = "Kwetiau goreng"
+        elif pesanan == 7:
+          item = "Mie goreng"
+        elif pesanan == 8:
+          item = "Mie kuah"
+        elif pesanan == 9:
+          item = "Es teh"
+        elif pesanan == 10:
+          item = "Es jeruk"
+        elif pesanan == 11:
+          item = "Es buah"
+        print(f"- {kategori}: {item}")
 
-
-
-        
-
-      
+totalsemua()
         
 
 
