@@ -16,13 +16,14 @@ print("11. Es buah: Rp. 10.000")
 def totalsemuahargamenu(menu, hargamenunasgor):
   totalharga = 0
   for pesanan in menu:
-    totalharga = hargamenunasgor
+    totalharga += hargamenunasgor[pesanan -1]
   return totalharga
 
 def totalsemua():
   hargamenunasgor = [13000, 15000, 15000, 17000, 22000, 13000, 13000, 13000, 3000, 5000, 10000]
   menu = []
 
+  
   while True:
         pesanan = input("Masukkan nomor menu yang ingin dipesan (ketik 0 untuk total harga yang harus dibayar): ")
 
