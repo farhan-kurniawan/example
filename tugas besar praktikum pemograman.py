@@ -55,7 +55,7 @@ def totalsemua():
         else pesanan >=5 :
           kategori = "Minuman"
         
-        elif pesanan == 1:
+        if pesanan == 1:
           item = "Nasi goreng biasa"
         elif pesanan == 2:
           item = "Nasi goreng sosis"
