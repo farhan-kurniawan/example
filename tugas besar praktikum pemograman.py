@@ -52,8 +52,9 @@ def totalsemua():
       for pesanan in menu:
         if pesanan <=5 :
           kategori = "Makanan"
-        elif pesanan >=5 :
+        else pesanan >=5 :
           kategori = "Minuman"
+        
         elif pesanan == 1:
           item = "Nasi goreng biasa"
         elif pesanan == 2:
