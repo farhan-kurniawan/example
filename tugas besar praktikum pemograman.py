@@ -1,4 +1,4 @@
-print("          Nasgor Gila Ngapak          ")
+print("          Nasgor Gila Ngapak PWT          ")
 print(" ")
 print("----------------Makanan----------------")    
 print("1. Nasi goreng biasa: Rp. 13.000")
